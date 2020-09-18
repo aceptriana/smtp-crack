@@ -52,7 +52,7 @@ def print_logo():
                     | |                                       
                     |_|                                       
 
-Mister Spy
+TKJ Blackhat
 T-shop.to
 
 """
