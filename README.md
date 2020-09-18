@@ -18,8 +18,8 @@
 ## Installation [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
 
 ```bash
-git clone https://github.com/MisterSpyx/Smtp-Cracker-From-Sites.git
-cd Python-Sender-
+git clone https://github.com/aceptriana/smtp-crack
+cd smtp-crack
 python smtp.py
 ```
 
@@ -31,18 +31,18 @@ Download [Termux](https://play.google.com/store/apps/details?id=com.termux)
 pip2 install python2
 pip2 install colorama
 pkg install git
-git clone https://github.com/MisterSpyx/Smtp-Cracker-From-Sites.git
-cd Smtp-Cracker-From-Sites/
+git https://github.com/aceptriana/smtp-crack
+cd smtp-crack
 python2 smtp.py sites.txt
 ```
 
 ## Installation [Windows ](https://wikipedia.org/wiki/Microsoft_Windows)[![alt tag](http://icons.iconarchive.com/icons/tatice/cristal-intense/32/Windows-icon.png)](https://fr.wikipedia.org/wiki/Microsoft_Windows)
 ```bash
 Download python 2.7
-Download Smtp-Cracker-From-Sites
-Extract Smtp-Cracker-From-Sites into Desktop
+Download smtp-crack
+Extract smtp-crack into Desktop
 Open CMD and type the following commands:
-cd Desktop/Smtp-Cracker-From-Sites/
+cd Desktop/smtp-crack/
 smtp.py sites.txt
 ```
 <h2>Version 1</h2>
