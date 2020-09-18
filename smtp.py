@@ -53,7 +53,7 @@ def print_logo():
                     |_|                                       
 
 TKJ Blackhat
-T-shop.to
+Tidak Ada Jurusan Yang Aman
 
 """
     for N, line in enumerate(x.split("\n")):
